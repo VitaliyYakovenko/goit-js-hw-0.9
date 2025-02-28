@@ -35,7 +35,7 @@ function onStartTimer() {
 
 
 function startTimer(time) {
-    futureTime = time.getTime();
+    const futureTime = time.getTime();
     let currentTime = Date.now();
 
     if (futureTime < currentTime) {
